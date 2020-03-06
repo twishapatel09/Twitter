@@ -131,7 +131,7 @@
                                         <constraint firstItem="Jcc-pb-1fQ" firstAttribute="leading" secondItem="QaA-1I-ahz" secondAttribute="trailing" constant="6" id="umI-b2-sJz"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="favButton" destination="HGF-Os-Enx" id="WMU-lZ-tzo"/>
                                     <outlet property="profileImageView" destination="QaA-1I-ahz" id="H5f-BT-EFl"/>
@@ -175,16 +175,16 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pq1-89-00x">
                                 <rect key="frame" x="0.0" y="88" width="414" height="128"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="PsR-SE-p4z"/>
                                 </constraints>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Pq1-89-00x" firstAttribute="leading" secondItem="W5E-kK-6f2" secondAttribute="leading" id="1Hr-Gt-nG0"/>
                             <constraint firstItem="Pq1-89-00x" firstAttribute="top" secondItem="W5E-kK-6f2" secondAttribute="top" id="fU9-uC-6Xf"/>
